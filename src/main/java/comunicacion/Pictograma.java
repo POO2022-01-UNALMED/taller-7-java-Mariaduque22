@@ -8,6 +8,9 @@ public abstract class Pictograma {
 		super();
 		this.origen = origen;
 	}
+	
+	public abstract String interpretacion ();
+	public abstract String toString();
 
 	public String getOrigen() {
 		return origen;
@@ -16,9 +19,4 @@ public abstract class Pictograma {
 	public void setOrigen(String origen) {
 		this.origen = origen;
 	}
-	
-	abstract String interpretacion ();
-	
-	public abstract String toString();
-	
 }
